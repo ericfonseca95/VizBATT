@@ -1,7 +1,7 @@
 #!/bin/sh
 
 /usr/bin/invoke_app "$@" \
-  -t vizbattgit2 \
+  -t testvizbat \
   -C "start_jupyter -t -T @tool VizBATT.ipynb" \
   -u anaconda-7 \
   -r none \
